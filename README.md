@@ -8,7 +8,7 @@
 
 ## About
 
-Welcome to IRLLicence – a powerful code validation mechanism that ensures your Application/XCFramework is running where and how it is suppose. 
+Welcome to IRLLicence – a powerful code validation mechanism that ensures your Binary is running where and how it is suppose. 
 
 #### How it work: 
 - Integrate this 
