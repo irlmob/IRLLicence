@@ -1,4 +1,12 @@
 # 🔐 IRLLicence
+<p align="left">
+    <a href="https://swift.org">
+        <img src="http://img.shields.io/badge/Swift-5.4-brightgreen.svg" alt="Language">
+    </a>
+    <a href="https://github.com/irlmob/IRLLicence/blob/main/LICENSE">
+        <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License">
+    </a>
+</p>
 
 🔐 Helper tool to validate `Licence Code provided to client`
 
