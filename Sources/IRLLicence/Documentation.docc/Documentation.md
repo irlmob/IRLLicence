@@ -37,7 +37,7 @@ IRLLicence primarily uses [SwiftPM](https://swift.org/package-manager/) as its b
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/irlmob/IRLLicence.git", from: "0.0.4")
+    .package(url: "https://github.com/irlmob/IRLLicence.git", from: "1.0.0")
 ]
 ```
 
