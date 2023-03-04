@@ -1,11 +1,5 @@
 // swift-tools-version:5.4
 // The swift-tools-version declares the minimum version of Swift required to build this package.
-//
-//  Created by Denis Martin-Bruillot on 03/03/2023.
-//
-//  Copyright (c) 2023 Denis Martin-Bruillot.
-//  All rights reserved. This code is licensed under the MIT License, which can be found in the LICENSE file.
-//
 
 import PackageDescription
 
