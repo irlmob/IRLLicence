@@ -1,7 +1,7 @@
 # 🔐 IRLLicence
 <p align="left">
     <a href="https://doc-irllicence.irlmobile.com/documentation/">
-        <img src="https://raw.githubusercontent.com/irlmob/IRLLicence/main/documentationicon.png" alt="Documentation">
+        <img src="https://github.com/irlmob/IRLLicence/raw/main/documentationicon.png" alt="Documentation">
     </a>
     <a href="https://swift.org">
         <img src="http://img.shields.io/badge/Swift-5.7-brightgreen.svg" alt="Language">
