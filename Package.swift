@@ -40,23 +40,11 @@ targets.append(contentsOf: [
         publicHeadersPath: "include",
         cSettings: [
             .define("MY_LIBRARY_VERSION", to: "1.0.0"), // Add any compiler flags or preprocessor macros here
-        ],
-        cxxSettings: [],
-        linkerSettings: [
-            .unsafeFlags(["-L/usr/local/lib", "-L/etc/lib"]), // Add any additional linker flags here
-            .unsafeFlags(["-lcrypto", "-lssl"  ]) // Add any additional linker flags here
         ])
 ])
 
-let swiftSetting: [SwiftSetting] = [
-    .unsafeFlags(["-Xlinker", "-rpath", "-Xlinker", "/usr/local/lib"]) // Add the LD_LIBRARY_PATH value here
-]
-let linkerSettings: [LinkerSetting] = [
-    .unsafeFlags(["-L/usr/local/lib"]) // Add any additional linker flags here
-]
 targets.append(contentsOf: [
-    .target(name: "IRLLicence", dependencies: [ "libvalid", "CryptoSwift" ],
-            swiftSettings: swiftSetting, linkerSettings: linkerSettings)
+    .target(name: "IRLLicence", dependencies: [ "libvalid", "CryptoSwift" ])
 ])
 
 #else
