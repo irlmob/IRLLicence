@@ -1,7 +1,7 @@
 # 🔐 IRLLicence
 <p align="left">
     <a href="https://swift.org">
-        <img src="http://img.shields.io/badge/Swift-5.4-brightgreen.svg" alt="Language">
+        <img src="http://img.shields.io/badge/Swift-5.7-brightgreen.svg" alt="Language">
     </a>
     <a href="https://github.com/irlmob/IRLLicence/blob/main/LICENSE">
         <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License">
@@ -43,10 +43,10 @@ IRLLicence primarily uses [SwiftPM](https://swift.org/package-manager/) as its b
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/irlmob/IRLLicence.git", from: "1.0.0")
+    .package(url: "https://github.com/irlmob/IRLLicence.git", from: "1.0.3")
 ]
 ```
-#### Swift 5.4 and newer (`swift-tools-version:5.7`)
+#### Swift 5.7 and newer (`swift-tools-version:5.7`)
 ```swift
     dependencies: [.product(name: "IRLLicence", package: "IRLLicence") ]
 ```
